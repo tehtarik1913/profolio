@@ -1,0 +1,83 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Nanum Gothic;
+}
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+.upleft { text-align: left;
+    padding: 2em;
+   margin-left: 2em;     
+    z-index: 1;
+ }
+nav{
+    font-weight: bold;
+    color: black;
+   background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+nav ul{
+    text-align: right;
+    position:fixed;
+    width: 100%;
+    font-size: 1.3em;
+    z-index: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 2em;
+}
+nav a:hover{
+    color:olivedrab;
+    background: lightyellow;
+    padding:1vh;
+}
+#welcome-section {  
+     overflow:hidden;
+     height:90vh ;
+     background-color:rgba(76, 175, 80, 0.3) ;
+     z-index: 1;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#head-img {
+    padding-top: 10vh;
+    height: 70vh;
+    padding-left: 6em; 
+    mix-blend-mode: multiply;/*****/
+}
+
+ #About{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(gardenmaze.jpg) ;
+    opacity: 0.7;
+    background-size:contain;
+    background-position: center;    
+    background-repeat: no-repeat;
+    height: 150vh; 
+ }
+ #About p{
+    color:white;
+    font-size: 22px;
+    font-weight: bold; 
+     
+ }
+
+
